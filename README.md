@@ -24,10 +24,6 @@ We also extend our heartfelt thanks to the **IEEE Sensors Council** for sponsori
 
 ---
 
-<img src="/assets/images/AthletIQ/prototype_hero.jpg">
-
----
-
 ## Table of Contents
 
 | No. | Section                                                    |
@@ -56,7 +52,7 @@ We also extend our heartfelt thanks to the **IEEE Sensors Council** for sponsori
 
 ## Overview
 
-**AthletIQ** is a unified smart-belt wearable that delivers real-time biomechanical analysis and adaptive coaching from a single inertial sensor positioned at the body's centre of mass. Rather than distributing components across multiple limbs, the entire system is consolidated into one compression waist belt, with all sensing, processing, and feedback co-located at the sacrum — the optimal anatomical location for capturing whole-body kinematics.
+**AthletIQ** is a unified smart-belt wearable that delivers real-time biomechanical analysis and adaptive coaching from a single inertial sensor positioned at the body's centre of mass. The entire system is consolidated into one compression waist belt, with all sensing, processing, and feedback co-located at the sacrum — the optimal anatomical location for capturing whole-body kinematics.
 
 The platform is built around the MYOSA Mini IoT Kit and operates as a multi-mode coaching system. A front-mounted gesture sensor allows the athlete to switch between exercise modes with a simple hand swipe, while the inertial sensor at the lower back measures motion, impact, posture, and stability. An on-device intelligence layer evaluates each movement against biomechanical thresholds and generates corrective feedback, which is delivered both as instant haptic alerts on the belt and as a structured coaching review on an interactive dashboard.
 
@@ -143,13 +139,13 @@ The architecture is organised around a single sensing node at the centre of mass
 
 <img src="/assets/images/AthletIQ/prototype_design.jpg">
 
-The prototype consolidates the MYOSA motherboard, inertial sensor, barometric sensor, vibration motor, and battery on the rigid rear panel of a compression waist belt, positioned over the sacrum. The gesture sensor is mounted externally on the front closure for touchless mode switching. The rigid panel provides a stable, low-motion mounting surface, and the elastic compression couples the sensor tightly to the body to minimise motion artefacts during dynamic movement.
+The prototype consolidates the MYOSA motherboard, inertial sensor, barometric sensor, actuator, and battery on the rigid rear panel of a compression waist belt, positioned over the sacrum. The gesture sensor is mounted externally on the front closure for touchless mode switching. The rigid panel provides a stable, low-motion mounting surface, and the elastic compression couples the sensor tightly to the body to minimise motion artefacts during dynamic movement.
 
 ### Demo Video
 
-<!-- Replace with the uploaded landscape demo video. Note: per submission guidelines, the demo video must be in horizontal (landscape) format. -->
-
-<img src="/assets/images/AthletIQ/demo.gif">
+<video controls width="100%">
+  <source src="/assets/your-video-name.mp4" type="video/mp4">
+</video>
 
 ### Interactive Dashboard
 
