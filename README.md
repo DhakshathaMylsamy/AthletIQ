@@ -123,6 +123,10 @@ The prototype consolidates the MYOSA motherboard, inertial sensor, barometric se
 
 ### Demo Video
 
+
+https://github.com/user-attachments/assets/88d235dc-c3f2-44bd-8a82-0d6d0d49e3de
+
+
 <video controls width="100%">
   <source src="/assets/demovideo.mp4" type="video/mp4">
 </video>
