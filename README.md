@@ -46,7 +46,7 @@ Built entirely on the **MYOSA Mini IoT Kit**, the system consolidates all sensin
 
 **Who it is for:** grassroots athletes, coaches, physiotherapists, and anyone needing accessible movement analysis without laboratory infrastructure — particularly in resource-constrained settings.
 
-
+<img src="/assets/images/AthletIQ/prototype.png">
 ---
 
 ## Problem Statement
@@ -123,7 +123,7 @@ The prototype consolidates the MYOSA motherboard, inertial sensor, barometric se
 ### Demo Video
 
 <video controls width="100%">
-  <source src="/assets/your-video-name.mp4" type="video/mp4">
+  <source src="/assets/demovideo.mp4" type="video/mp4">
 </video>
 
 ### Interactive Dashboard
@@ -218,7 +218,7 @@ Clinical validation, per-joint angle measurement, large-scale field deployment, 
 - MPU6050 (inertial sensor, centre of mass)
 - APDS9960 (gesture control)
 - BMP180 (environmental context)
-- Coin vibration motor (haptic feedback)
+- Coin vibration motor/buzzer (haptic feedback)
 - Compression waist belt (housing)
 
 ### Firmware
@@ -234,7 +234,7 @@ Clinical validation, per-joint angle measurement, large-scale field deployment, 
 ### Intelligence
 
 - On-device threshold-based movement and posture evaluation
-- LLM-based coaching review (Anthropic API) that narrates the measured session metrics
+- LLM-based coaching review (Gemini API) that narrates the measured session metrics
 
 ### Frontend
 
@@ -266,7 +266,7 @@ git clone https://github.com/<your-username>/AthletIQ.git
 - Open `athletiq_dashboard.html` in a desktop Chrome or Edge browser (Web Bluetooth is not supported in Safari or Firefox)
 - If the Connect button does not respond when opening the file directly, serve it locally (for example, run `python -m http.server` in the dashboard folder and open `localhost:8000`)
 - Power the belt, click **Connect belt**, and select **AthletIQ-Belt** to begin streaming
-- To enable the AI coaching review, paste an Anthropic API key into the field on the Coach's Review card; the key is held only in the browser session and is never stored or committed
+- To enable the AI coaching review, paste a Gemini API key into the field on the Coach's Review card; the key is held only in the browser session and is never stored or committed
 
 Hardware assembly and sensor mounting are described in the prototype section.
 
@@ -285,7 +285,7 @@ AthletIQ/
 ├── assets/
 │   └── images/
 │       └── AthletIQ/ — Project images referenced by this document
-│
+│   └── demovideo.mp4
 ├── LICENSE — MIT License
 └── README.md — Project documentation
 ```
