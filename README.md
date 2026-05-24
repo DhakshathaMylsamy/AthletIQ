@@ -20,7 +20,9 @@
 
 We express our sincere gratitude to **Dr. Allwyn Gnanadas**, Department of Biomedical Engineering, KPR Institute of Engineering and Technology, for his valuable guidance, technical direction, and continuous mentorship throughout this project.
 
-We also extend our heartfelt thanks to the **IEEE Sensors Council** for sponsoring the **MYOSA Mini IoT Kit**, which played a crucial role in enabling the development and implementation of this work.
+We also extend our heartfelt thanks to the IEEE International MYOSA 5.0 Committee Members for shortlisting this project and supporting it through the provision of a USD 250 MYOSA Mini IoT Kit.
+
+We also thank the IEEE Sensors Council for encouraging student-led research and applied engineering initiatives.
 
 ---
 
