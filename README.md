@@ -1,5 +1,5 @@
 
-<img src="/assets/images/banner.png">
+<img src="/assets/images/AthletIQ/banner.png">
 
 #### Publish Date: 2026-05-24
 
