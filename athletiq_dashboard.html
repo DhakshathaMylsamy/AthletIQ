@@ -164,7 +164,7 @@
     </div>
     <div id="coachBody" class="empty">Finish a set, then generate your coaching review.</div>
     <div id="keyRow" style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap;align-items:center">
-      <input id="apiKey" type="password" placeholder="Paste Anthropic API key (stays in your browser)"
+      <input id="apiKey" type="password" placeholder="Paste Gemini API key (stays in your browser)"
         style="flex:1;min-width:240px;background:var(--panel2);border:1px solid var(--line);color:var(--text);
         border-radius:8px;padding:9px 12px;font-family:var(--mono);font-size:13px">
       <span class="label" style="margin:0">key never leaves this device</span>
@@ -388,10 +388,10 @@ async function generateReview(){
     "(your overall rating of the set), then 2-3 short coaching sentences naming the specific numbers, "+
     "prioritising the most important cue first. Be encouraging but honest. No markdown, no lists.";
   try{
-    const r=await fetch("https://api.anthropic.com/v1/messages",{
+    const r=await fetch("https://api.Gemini.com/v1/messages",{
       method:"POST",
       headers:{"Content-Type":"application/json","x-api-key":key,
-               "anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},
+               "Gemini-version":"2023-06-01","Gemini-dangerous-direct-browser-access":"true"},
       body:JSON.stringify({model:"claude-sonnet-4-20250514",max_tokens:300,
         system:sys,
         messages:[{role:"user",content:"Session metrics (JSON): "+JSON.stringify(summary)}]})
