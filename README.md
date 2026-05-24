@@ -20,6 +20,8 @@
 
 We express our sincere gratitude to **Dr. Allwyn Gnanadas**, Department of Biomedical Engineering, KPR Institute of Engineering and Technology, for his valuable guidance, technical direction, and continuous mentorship throughout this project.
 
+We would also like to acknowledge our classmate, **Sudarshan** - [@suducodes](https://github.com/Suducodes) for his valuable contribution as the athlete model during the physical testing and demonstration of the AthletIQ system.
+
 We also extend our heartfelt thanks to the **IEEE Sensors Council** for sponsoring the **MYOSA Mini IoT Kit**, which played a crucial role in enabling the development and implementation of this work.
 
 ---
