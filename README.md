@@ -7,6 +7,14 @@
 
 #### A unified smart-belt wearable that turns a single low-cost inertial sensor into lab-grade biomechanical feedback, delivering real-time, multi-mode athletic and postural coaching through an on-device intelligence layer and an interactive dashboard.
 
+<p align="center">
+  <a href="https://gemini.google.com/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/google-gemini.svg" alt="Google Gemini" width="50" />
+  </a>
+  <br>
+  <strong> AthletIQ Powered by Google Gemini</strong>
+</p>
+
 ---
 
 ## Contributors
@@ -22,33 +30,9 @@ We express our sincere gratitude to **Dr. Allwyn Gnanadas**, Department of Biome
 
 We would also like to acknowledge our classmate, **Sudarshan** - [@suducodes](https://github.com/Suducodes) for his valuable contribution as the athlete model during the physical testing and demonstration of the AthletIQ system.
 
-We also extend our heartfelt thanks to the **IEEE Sensors Council** for sponsoring the **MYOSA Mini IoT Kit**, which played a crucial role in enabling the development and implementation of this work.
+We also extend our heartfelt thanks to the IEEE International MYOSA 5.0 Committee Members for shortlisting this project and supporting it through the provision of a USD 250 MYOSA Mini IoT Kit.
 
----
-
-## Table of Contents
-
-| No. | Section                                                    |
-| --- | ---------------------------------------------------------- |
-| 1   | [Overview](#overview)                                      |
-| 2   | [Background](#background)                                  |
-| 3   | [Problem Statement](#problem-statement)                    |
-| 4   | [Project Objectives](#project-objectives)                  |
-| 5   | [Solution](#solution)                                      |
-| 6   | [System Architecture](#system-architecture)                |
-| 7   | [Process Flow](#process-flow)                              |
-| 8   | [Prototype](#prototype)                                    |
-| 9   | [Measured Parameters](#measured-parameters)                |
-| 10  | [Novelty](#novelty)                                        |
-| 11  | [Scope of the Project](#scope-of-the-project)              |
-| 12  | [Outcomes](#outcomes)                                      |
-| 13  | [Features](#features)                                      |
-| 14  | [Usage Instructions](#usage-instructions)                  |
-| 15  | [Tech Stack](#tech-stack)                                  |
-| 16  | [Requirements / Installation](#requirements--installation) |
-| 17  | [File Structure](#file-structure)                          |
-| 18  | [License](#license)                                        |
-| 19  | [Contribution Notes](#contribution-notes)                  |
+We also thank the IEEE Sensors Council for encouraging student-led research and applied engineering initiatives.
 
 ---
 
