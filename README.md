@@ -1,7 +1,7 @@
 
-<img src="/assets/images/AthletIQ/Banner.png">
+<img src="/assets/images/banner.png">
 
-#### Publish Date: 2026-05-17
+#### Publish Date: 2026-05-24
 
 #### Title: AthletIQ: An Agentic AI Biomechanical Coach for Athletes Using the MYOSA Mini IoT Kit
 
