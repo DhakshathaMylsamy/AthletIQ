@@ -38,21 +38,14 @@ We also thank the IEEE Sensors Council for encouraging student-led research and 
 
 ## Overview
 
-**AthletIQ** is a unified smart-belt wearable that delivers real-time biomechanical analysis and adaptive coaching from a single inertial sensor positioned at the body's centre of mass. The entire system is consolidated into one compression waist belt, with all sensing, processing, and feedback co-located at the sacrum — the optimal anatomical location for capturing whole-body kinematics.
+**AthletIQ** is a unified smart-belt wearable that delivers real-time biomechanical analysis and adaptive coaching from a single inertial sensor worn at the body's centre of mass.
 
-The platform is built around the MYOSA Mini IoT Kit and operates as a multi-mode coaching system. A front-mounted gesture sensor allows the athlete to switch between exercise modes with a simple hand swipe, while the inertial sensor at the lower back measures motion, impact, posture, and stability. An on-device intelligence layer evaluates each movement against biomechanical thresholds and generates corrective feedback, which is delivered both as instant haptic alerts on the belt and as a structured coaching review on an interactive dashboard.
+Commercial fitness trackers report steps and heart rate but cannot judge whether a movement is good or safe. Professional biomechanics labs can, but they rely on force plates and motion-capture systems that cost a fortune and are confined to a room. **AthletIQ bridges this gap** — it extracts clinically meaningful movement metrics from one low-cost sensor in a waist belt, evaluates the quality of each movement on the device itself, and delivers feedback both as an instant haptic buzz on the belt and as an AI coaching review on a dashboard.
 
-AthletIQ is designed to bridge the gap between expensive laboratory biomechanics systems and basic consumer fitness trackers. By extracting clinically meaningful metrics from a single low-cost sensor, the system demonstrates how accessible, professional-grade movement analysis can be democratised for grassroots sports training, injury prevention, and postural health.
+Built entirely on the **MYOSA Mini IoT Kit**, the system consolidates all sensing, processing, and feedback into a single compression belt worn at the lower back (sacrum) — the optimal anatomical location for capturing whole-body movement. A front-mounted gesture sensor lets the athlete switch between three coaching modes with a simple hand swipe.
 
----
+**Who it is for:** grassroots athletes, coaches, physiotherapists, and anyone needing accessible movement analysis without laboratory infrastructure — particularly in resource-constrained settings.
 
-## Background
-
-Biomechanical analysis of human movement has traditionally required expensive, fixed laboratory infrastructure such as optical motion-capture systems and force plates. These systems deliver high accuracy but are inaccessible to the vast majority of athletes, coaches, and clinicians, particularly in resource-constrained settings. At the opposite end of the spectrum, consumer wearables provide only generalised metrics such as step counts and heart rate, and lack the ability to evaluate the quality of a movement or detect harmful technique.
-
-The body's centre of mass, located near the sacrum, is a well-established anatomical reference for whole-body movement analysis. An inertial measurement unit (IMU) placed at this location can capture jump kinematics, landing forces, trunk posture, and postural stability with strong validity, a principle used by commercial jump-measurement devices and supported by sports-science research. A single, well-placed sensor can therefore yield a surprisingly rich set of biomechanical parameters without the cost and complexity of multi-node or lab-based systems.
-
-Advances in low-cost IMUs, embedded machine learning, and wireless communication now make it possible to perform meaningful biomechanical computation directly on a wearable device and stream the results to an everyday phone or laptop. AthletIQ applies these capabilities to a single MYOSA-based belt, transforming an inexpensive educational IoT kit into a credible biomechanical coaching platform.
 
 ---
 
