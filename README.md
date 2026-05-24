@@ -47,6 +47,7 @@ Built entirely on the **MYOSA Mini IoT Kit**, the system consolidates all sensin
 **Who it is for:** grassroots athletes, coaches, physiotherapists, and anyone needing accessible movement analysis without laboratory infrastructure — particularly in resource-constrained settings.
 
 <img src="/assets/images/AthletIQ/prototype.png">
+
 ---
 
 ## Problem Statement
