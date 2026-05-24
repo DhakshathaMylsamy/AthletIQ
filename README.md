@@ -1,7 +1,3 @@
----
-title: "AthletIQ: An Agentic AI Biomechanical Coach for Athletes Using the MYOSA Mini IoT Kit"
-cover: AthletIQ/cover.jpg
----
 
 <img src="/assets/images/AthletIQ/Banner.png">
 
