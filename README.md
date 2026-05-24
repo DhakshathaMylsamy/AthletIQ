@@ -134,7 +134,11 @@ https://github.com/user-attachments/assets/88d235dc-c3f2-44bd-8a82-0d6d0d49e3de
 ### Interactive Dashboard
 
 <img src="/assets/images/AthletIQ/dashboard.png">
-
+<p align="center">
+  <a href="https://dhakshathamylsamy.github.io/AthletIQ/" target="_blank">
+    Click here! Web App
+  </a>
+</p>
 ---
 
 ## Measured Parameters
