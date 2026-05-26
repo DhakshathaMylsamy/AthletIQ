@@ -262,7 +262,7 @@ https://github.com/DhakshathaMylsamy/AthletIQ.git
 
 2. Firmware:
 
-- Open firmware/athletiq_belt.ino in the Arduino IDE
+- Open `athletiq_belt.ino` in the Arduino IDE
 - Install the MYOSA library and the ESP32 board package
 - Select the MYOSA (ESP32) board and upload to the motherboard
 
@@ -281,16 +281,16 @@ Hardware assembly and sensor mounting are described in the prototype section.
 
 ```
 AthletIQ/
-├── firmware/
+├── firmware/ — Arduino firmware for the smart belt
 │   └── athletiq_belt.ino
 │
-├── dashboard/
+├── dashboard/ — Web Bluetooth dashboard with AI coaching review
 │   └── athletiq_dashboard.html
 │
 ├── assets/
 │   ├── demovideo.mp4
 │   │
-│   └── images/
+│   └── images/ — Project images referenced by this document
 │       └── AthletIQ/
 │           ├── architecture.png
 │           ├── banner.png
