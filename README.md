@@ -288,11 +288,16 @@ AthletIQ/
 │   └── athletiq_dashboard.html
 │
 ├── assets/
-│   ├── prototype_design.png
-│   ├── architecture.png
-│   ├── process_flow.png
-│   ├── dashboard.png
-│   └── demovideo.mp4
+│   ├── demovideo.mp4
+│   │
+│   └── images/
+│       └── AthletIQ/
+│           ├── architecture.png
+│           ├── banner.png
+│           ├── dashboard.png
+│           ├── process_flow.png
+│           ├── prototype.png
+│           └── prototype_design.jpg
 │
 ├── LICENSE
 └── README.md
